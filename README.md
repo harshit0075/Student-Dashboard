@@ -1,11 +1,11 @@
 ## React Redux Student Bounty Dashboard
 
 
-- **_Note_**:
+<!-- - **_Note_**:
 
 1. Make sure that the json-server is up and running at port 8080
 2. There is a .env file. Include `REACT_APP_JSON_SERVER_PORT=8080` in it
-3. Use `http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}` as the json-server base url
+3. Use `http://localhost:${process.env.REACT_APP_JSON_SERVER_PORT}` as the json-server base url -->
 
 ## Folder Structure (Important Files)
 

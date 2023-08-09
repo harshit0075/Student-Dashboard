@@ -1,45 +1,5 @@
 ## React Redux Student Bounty Dashboard
 
-### Maximum Marks: 26
-
-```
-✅ Able to make a submission: - 1 Mark
-✅ Check Initial Redux Store Structure for Authentication: - 1 Mark
-✅ Check Initial Redux Store Structure for students: - 1 Mark
-✅ Get request should be made for students when the home page loads: - 1 Mark
-✅ isLoading should update accordingly while making the request: - 1 Mark
-✅ Student state in store should update when get request is made on the homepage: - 2 Marks
-✅ All students should be displayed on the home page: - 1 Mark
-✅ On Login the store authReducer state should update accordingly: - 2 Marks
-✅ user is redirected to login page while visiting /student/:id, without authentication and should be redirected back to /student.:id after login: - 2 Marks
-✅ On checking filter URL should be updated accordingly: - 2 Marks
-✅ On visiting URL with initial params the checkboxes should be checked accordingly: - 2 Marks
-✅ On filtering the data in the redux store should also be filtered accordingly: - 1 Mark
-✅ On filtering the the UI on the home page should update accordingly: - 1 Mark
-✅ By default the page number 1 data i.e 10 items should be present on the homepage: - 1 Mark
-✅ On loading the homepage, the store should also should have only page 1 data: - 2 Marks
-✅ On clicking the previous and next button, data should update accordingly on UI: - 2 Marks
-✅ On changing the page number the URL should be updated: - 1 Mark
-✅ Filtering and pagination should work together: - 2 Mark
-```
-
-## Installation
-
-- Use node version(LTS) should be `v16.16.0`
-- Don't change/override package.json
-- please make sure you do not push package-lock.json
-
-```
-// install node_modules
-npm install --engine-strict
-
-// run locally
-npm run start
-
-//to start the json-server
-
-npm run server
-```
 
 - **_Note_**:
 
@@ -74,7 +34,7 @@ npm run server
 └── App.js
 ```
 
-## Problem Statement
+<!-- ## Problem Statement
 
 Create a Student Bounty dashboard where one can see the list of students with the number of green cards.
 With functionalities like authentication, filtering and pagination.
@@ -139,12 +99,12 @@ With functionalities like authentication, filtering and pagination.
 
 - Reverse should also be true, i.e. the checkboxes should be checked as per the initial params in the url
 - Update the redux store as well with the filtered data
-- The filtered data should be reflected on DOM as well
+- The filtered data should be reflected on DOM as well -->
 
 <img width="1725" alt="Screenshot 2023-03-17 at 8 01 45 PM" src="https://user-images.githubusercontent.com/74458714/225934626-4ff041f2-3ed8-4143-8533-75b22102a642.png">
 
 
-### Authentication
+<!-- ### Authentication
 
 - Use `reqres.in` for login functionality
 - Complete the `login` page.
@@ -162,14 +122,14 @@ With functionalities like authentication, filtering and pagination.
 - Show batch in p tag with class `student-batch`
 - Show score in p tag with class `student-score`
 - Show the number of green cards in h3 tag with class `student-green-card`
-```
+``` -->
 
 <img width="1726" alt="Screenshot 2023-03-17 at 8 01 55 PM" src="https://user-images.githubusercontent.com/74458714/225934667-f0fe4d14-80a6-42f8-a77c-02c3666bd524.png">
 
 <img width="1728" alt="Screenshot 2023-03-17 at 8 02 12 PM" src="https://user-images.githubusercontent.com/74458714/225934712-cd9e9819-eed3-44a2-9d85-2785a59f1d06.png">
 
 
-### Pagination
+<!-- ### Pagination
 
 **Refer the json-server documentation for this**
 
@@ -210,4 +170,4 @@ http://localhost:3000/?batch=RCT101&batch=NXM101&page=1
 ### General guidelines
 
 - The system on cp.masaischool.com may take between 1-20 minutes for responding
-- So we request you to read the problem carefully and debug it before itself.
+- So we request you to read the problem carefully and debug it before itself. -->
